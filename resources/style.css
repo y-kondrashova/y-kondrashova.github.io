@@ -1,0 +1,105 @@
+html {
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin: 1.25rem 0;
+    font-size: 2rem; 
+    text-transform: capitalize;
+}
+
+h2 {
+    margin: .75rem 0;
+    font-size: 1.5rem;
+}
+
+p {
+    padding: 0.75rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*general styles*/
+
+nav a {
+    text-decoration: underline;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+
+
+/*header styles*/
+
+#goal {
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 300px;
+}
+
+#goal .content {
+    flex-direction: column;
+    padding: .5rem 1rem;
+    background-color: #060272;
+}
+
+/*goal styles*/
+
+#styles .content {
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+#styles .image {
+    width: 25%;
+    height: auto;
+}
+
+#styles .image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*styles' styles*/
+
+#about-me .content {
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+#about-me .image {
+    width: 25%;
+    height: auto;
+}
+
+#about-me .image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*about-me styles*/
+
+footer img {
+    width: 45px;
+    height: auto;
+}
+
+/*contact styles*/
